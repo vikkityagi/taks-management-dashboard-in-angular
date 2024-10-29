@@ -1,1 +1,28 @@
-<router-outlet></router-outlet>
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="drawer.toggle()" aria-label="Toggle sidebar">
+        <mat-icon>menu</mat-icon>
+    </button>&nbsp;&nbsp;
+    <span>Task Management Dashboard</span>
+  
+    <span class="example-fill-remaining-space"></span>
+  
+    <span class="nav-item"routerLink="/">Home</span>
+    <span class="nav-item" (click)="drawerMenu('t')">Task</span>
+    <span class="nav-item" (click)="drawerMenu('p')">Pofile</span>
+    <span class="nav-item">Detail</span>
+  </mat-toolbar>
+  
+<mat-drawer-container class="example-container">
+    <mat-drawer #drawer mode="side" opened="true">
+        <mat-nav-list>
+            <mat-list-item *ngFor="let item of drawerItem" (click)="drawerMenu(item.label)">
+                <mat-icon mat-list-icon>{{ item.icon }}</mat-icon>
+                <span mat-line>{{ item.label }}</span>
+            </mat-list-item>
+        </mat-nav-list>
+
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

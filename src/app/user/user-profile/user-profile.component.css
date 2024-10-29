@@ -1,0 +1,132 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically (if needed) */
+    min-height: 100vh;
+    /* Full height for centering */
+    background: linear-gradient(136deg, #5fb4ff, #feb47b);
+    /* Gradient background */
+}
+
+.user-profile-card {
+    background: #ffffff;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+}
+
+.user-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+mat-card-header {
+    justify-content: center;
+}
+
+mat-card-actions {
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically (if needed) */
+    min-height: 100vh;
+    /* Full height for centering */
+    background: linear-gradient(136deg, #5fb4ff, #feb47b);
+    /* Gradient background */
+}
+
+.user-profile-card {
+    background: #ffffff;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+}
+
+.user-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+mat-card-header {
+    justify-content: center;
+}
+
+mat-card-actions {
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically (if needed) */
+    min-height: 100vh;
+    /* Full height for centering */
+    background: linear-gradient(136deg, #5fb4ff, #feb47b);
+    /* Gradient background */
+}
+
+.user-profile-card {
+    background: #ffffff;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+}
+
+.user-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+mat-card-header {
+    justify-content: center;
+    padding: 16px 16px; /* Padding on both left and right for spacing */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcfcfd;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #7891dd;
+    border-top-left-radius: 12px; /* Match card border radius */
+    border-top-right-radius: 12px;
+}
+
+
+
+mat-card-actions {
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+}
+
+form {
+    width: 90%;
+}
+
+mat-form-field {
+    width: calc(95% + 20px);
+    /* Extend width by 16px on each side */
+}

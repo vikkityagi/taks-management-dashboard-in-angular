@@ -12,13 +12,21 @@ import { UserModule } from './user/user.module';
 import { EmployeeModule } from './employee/employee.module';
 import { PriorityHighlightDirective } from './directives/priority-highlight.directive';
 import { TaskStatusPipe } from './pipes/task-status.pipe';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import {MatListModule} from '@angular/material/list'; 
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     PriorityHighlightDirective,
-    TaskStatusPipe
+    TaskStatusPipe,
+    SidebarComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -26,7 +34,11 @@ import { TaskStatusPipe } from './pipes/task-status.pipe';
     BrowserAnimationsModule,
     EmployeeModule,
     TaskModule,
-    UserModule
+    UserModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
